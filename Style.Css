@@ -1,0 +1,151 @@
+/* ========== GLOBAL STYLES ========== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+/* ========== NAVBAR ========== */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Home Section Fullscreen Background */
+.home-section {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1648413653819-7c0fd93e8e6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJlbnp8ZW58MHx8MHx8fDA%3D.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.home-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.home-section p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.home-section .btn {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+}
+
+
+
+
+/* ========== ABOUT SECTION ========== */
+#about {
+  padding: 4rem 2rem;
+  background-color: #fff;
+}
+
+#about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* ========== RESERVATION SECTION ========== */
+#reservation {
+  padding: 4rem 2rem;
+}
+
+#reservation form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+/* ========== CONTACT SECTION ========== */
+#contact {
+  padding: 4rem 2rem;
+}
+
+#contact .form-control {
+  border-radius: 6px;
+}
+
+#contact img {
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+}
+
+#contact img:hover {
+  transform: scale(1.2);
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #212529;
+  color: #ffffff;
+  padding: 1.5rem;
+  font-size: 0.95rem;
+}
+
+/* ========== LOGIN PAGE ========== */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* ========== BUTTONS ========== */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #home p {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    margin-left: 0.5rem;
+  }
+}
+
